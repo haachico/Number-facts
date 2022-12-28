@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital@0;1&family=Rubik:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #27272a;
+  font-family: "Cabin", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f5;
+  width: 80%;
+  margin: 8rem auto;
+  padding: 4rem 2rem;
+  border-radius: 5px;
+}
+
+.app-heading {
+  margin-bottom: 6rem;
+}
+
+.input-heading {
+  margin-bottom: 2rem;
+}
+.input-box {
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+  height: 3rem;
+  width: 13rem;
+  background-color: #e4e4e7;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+.submit-btn {
+  background-color: #27272a;
+  color: #e4e4e7;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  padding: 5px 10px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.output-heading {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.output-box {
+  margin-bottom: 2rem;
+  height: 8rem;
+  width: 25rem;
+  border: 1px solid;
+  padding: 1rem 2rem;
+  background-color: #e4e4e7;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-align: left;
+  font-weight: 600;
+}
