@@ -16,7 +16,11 @@ function showOutput() {
 function showFact() {
   const numberInput = inputBox.value;
   //   const loadText = `Wait a little bit ⌛`;
-  fetch(`http://numbersapi.com/${numberInput}/math`)
+  fetch(`http://numbersapi.com/${numberInput}/math`, {
+    headers: {
+      "x-requested-with": "text/plain",
+    },
+  })
     .then((response) => response.text())
     .then((data) => {
       outputBox.innerText = `${data}`;
