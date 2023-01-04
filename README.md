@@ -1,3 +1,3 @@
 # Number-facts
 
-It shows interesting facts about numbers you enter!
+It gives interesting facts about numbers you enter!
